@@ -1,0 +1,48 @@
+.job {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.job .info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.job h3 {
+  margin: 0 0 5px;
+  color: #007777;
+}
+
+.job .details {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.job .tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.job .tags span {
+  background-color: #e0f5f5;
+  color: #007777;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}

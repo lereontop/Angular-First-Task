@@ -1,0 +1,14 @@
+<div class="job-list">
+  <div class="job">
+    <img [src]="job.logo" alt="PhotoSnap">
+    <div class="info">
+    <h3>{{ job.position }}</h3>
+      <div class="details">Posted: {{ job.postedAt }} | {{ job.contract }} | {{ job.location }}</div>
+    </div>
+    <div class="tags">
+
+      <span *ngFor="let lan of job.languages">{{ lan }}</span>
+      <!-- <span>CSS</span> -->
+          </div>
+
+  </div>

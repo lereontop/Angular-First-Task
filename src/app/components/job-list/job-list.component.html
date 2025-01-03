@@ -1,0 +1,10 @@
+<!-- <app-filters  *ngFor="let job of jobList()" [job]="job"
+(positionSelected)="filterJobsByPosition($event)"
+></app-filters> -->
+<div class="filters" >
+  <app-filters *ngFor="let job of jobList()" [job]="job" (positionSelected)="filterJobsByPosition($event)"></app-filters>
+</div>
+
+<div class="job-list" >
+  <app-job-item  *ngFor="let job of jobList()" [job]="job" ></app-job-item >
+</div>
